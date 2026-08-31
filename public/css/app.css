@@ -1,0 +1,158 @@
+body {
+    background-color: #cce7d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.register-card {
+    background-color: #c1dbd3;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    height: 600px;
+
+}
+
+.login-card {
+    background-color: #c1dbd3;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 480px;
+    height: 500px;
+}
+
+.forgot-card {
+    background-color: #c1dbd3;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    height: 350px;
+}
+
+.welcome-card {
+    background-color: #c1dbd3;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 128, 0, 0.1);
+    padding: 0 10px 10px 10px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.btn-success {
+    background-color: rgb(25, 135, 84);
+    border-color: rgb(25, 135, 84);
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-success:hover {
+    background-color: rgb(25, 135, 84);
+    border-color: rgb(25, 135, 84);
+}
+
+.btn-success:hover {
+    background-color: transparent;
+    color: rgb(25, 135, 84);
+    border-color: rgb(25, 135, 84);
+}
+
+.text-green {
+    color: rgb(25, 135, 84) !important;
+}
+
+.icon-bg-green {
+    background-color: rgb(25, 135, 84) !important;
+    color: #fff !important;
+    border: none;
+}
+
+h3 {
+    background-color: rgb(25, 135, 84);
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 20px 0;
+
+}
+
+.welcome-icon {
+    background-color: #283a2c;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.welcome-icon i {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.btn-custom {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+/* pour les stat*/
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    max-width: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-green {
+    background-color: #28a745;
+    /* Vert */
+    color: white;
+}
+
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+    height: 90px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.fa-user-plus,
+.fa-id-card {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}

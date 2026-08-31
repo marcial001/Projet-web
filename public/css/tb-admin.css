@@ -1,0 +1,168 @@
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #cce7d0;
+     padding: 10px;
+     align-items: center;
+     justify-content: center;
+ }
+
+
+ .header {
+     background-color: rgb(25, 135, 84);
+     border-radius: 5px;
+     color: white;
+     padding: 10px 15px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+ }
+
+ .header a {
+     color: white;
+     text-decoration: none;
+     margin-left: 10px;
+     font-size: 1rem;
+ }
+
+ .header a i {
+     margin-left: 5px;
+ }
+
+ .table-success th,
+ .table-success td {
+     vertical-align: middle;
+     font-size: 0.9rem;
+
+ }
+
+ @media (max-width: 768px) {
+
+     .table-success th,
+     .table-success td {
+         font-size: 0.8rem;
+         padding: 8px;
+     }
+
+     .table-success th:nth-child(2),
+     .table-success td:nth-child(2),
+     .table-success th:nth-child(3),
+     .table-success td:nth-child(3) {
+         display: none;
+     }
+ }
+
+ @media (max-width: 576px) {
+     .header h2 {
+         font-size: 1.2rem;
+     }
+
+     .header a {
+         font-size: 0.9rem;
+     }
+
+     .table-success {
+         display: block;
+         overflow-x: auto;
+     }
+
+     .table-success thead,
+     .table-success tbody,
+     .table-success th,
+     .table-success td,
+     .table-success tr {
+         display: block;
+         
+     }
+
+     .table-success td:before {
+         content: attr(data-label);
+         font-weight: bold;
+         margin-right: 10px;
+     }
+ }
+
+ .stats-card {
+     background-color: #c1dbd3;
+     box-shadow: 20px rgb(30, 30, 30);
+     padding: 15px;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
+
+ @media (max-width: 768px) {
+     .stats-card {
+         margin-bottom: 10px;
+         padding: 10px;
+         background-color: #c1dbd3;
+
+     }
+
+     .stats-card h4 {
+         font-size: 1rem;
+         background-color: #c1dbd3;
+
+     }
+
+     .stats-card .display-4 {
+         font-size: 1.5rem;
+     }
+ }
+
+ .quick-action-btn {
+     margin: 5px;
+     width: 100%;
+     margin-bottom: 10px;
+ }
+
+ @media (min-width: 576px) {
+     .quick-action-btn {
+         width: auto;
+     }
+ }
+
+ .modal-content {
+     border-radius: 10px;
+ }
+
+ .modal-header {
+     background-color: #007bff;
+     color: white;
+ }
+
+ .modal-footer {
+     justify-content: center;
+ }
+
+ .modal-body .form-label {
+     font-size: 0.9rem;
+ }
+
+ @media (max-width: 576px) {
+     .modal-dialog {
+         margin: 0.5rem;
+     }
+
+     .modal-content {
+         margin: 0;
+     }
+
+     .modal-body .form-control {
+         font-size: 0.9rem;
+     }
+ }
+
+ 
+ .card{
+        background-color: #cce7d0;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+ }
+
+ 
